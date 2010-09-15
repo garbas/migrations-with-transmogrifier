@@ -1,0 +1,15 @@
+*.swp
+/bin/
+/lib/
+/include/
+/plone-2.0.5/.installed.cfg
+/plone-2.0.5/Products/
+/plone-2.0.5/bin/
+/plone-2.0.5/includebin/
+/plone-2.0.5/downloads/
+/plone-2.0.5/eggs/
+/plone-2.0.5/include/
+/plone-2.0.5/lib/
+/plone-2.0.5/parts/
+/plone-2.0.5/var/
+            
