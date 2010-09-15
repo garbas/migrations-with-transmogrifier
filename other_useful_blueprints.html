@@ -1,0 +1,111 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Other usefull blueprints &mdash; Migrations with Transmogrifier - 0.1</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="top" title="Migrations with Transmogrifier - 0.1" href="index.html" />
+    <link rel="next" title="Lessons learned" href="lessons_learned.html" />
+    <link rel="prev" title="Default blueprints" href="default_blueprints.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="lessons_learned.html" title="Lessons learned"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="default_blueprints.html" title="Default blueprints"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Migrations with Transmogrifier - 0.1</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body">
+            
+  <div class="section" id="other-usefull-blueprints">
+<h1>Other usefull blueprints<a class="headerlink" href="#other-usefull-blueprints" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="plone-app-transmogrifier">
+<h2><tt class="docutils literal"><span class="pre">plone.app.transmogrifier</span></tt><a class="headerlink" href="#plone-app-transmogrifier" title="Permalink to this headline">¶</a></h2>
+<p>Contains several blueprints for collective.transmogrifier pipelines,
+commonly used to import content into a Plone site.</p>
+</div>
+<div class="section" id="quintagroup-transmogrifier">
+<h2><tt class="docutils literal"><span class="pre">quintagroup.transmogrifier</span></tt><a class="headerlink" href="#quintagroup-transmogrifier" title="Permalink to this headline">¶</a></h2>
+<p>May be used to export/import Plone site content. It also overrides
+GenericSetup <tt class="docutils literal"><span class="pre">Content</span></tt> step so this package can be used out-the-box
+to migrate site content.</p>
+</div>
+<div class="section" id="transmogrify-sqlalchemy">
+<h2><tt class="docutils literal"><span class="pre">transmogrify.sqlalchemy</span></tt><a class="headerlink" href="#transmogrify-sqlalchemy" title="Permalink to this headline">¶</a></h2>
+<p>This package implements the <cite>transmogrify.sqlalchemy</cite> blueprint which
+executes a SQL statement, generally a query, and feeds the return values
+from that query into the transmogrifier pipeline.</p>
+</div>
+<div class="section" id="pretaweb-funnelweb">
+<h2><tt class="docutils literal"><span class="pre">pretaweb.funnelweb</span></tt><a class="headerlink" href="#pretaweb-funnelweb" title="Permalink to this headline">¶</a></h2>
+<p>Crawls web page and imports found html into plone.</p>
+</div>
+<div class="section" id="collective-blueprint-translationlinker">
+<h2><tt class="docutils literal"><span class="pre">collective.blueprint.translationlinker</span></tt><a class="headerlink" href="#collective-blueprint-translationlinker" title="Permalink to this headline">¶</a></h2>
+<p>A transmogrifier blueprint to create links between content items to mark
+them as Products.LinguaPlone translations of each other.</p>
+</div>
+<div class="section" id="collective-blueprint-dancing">
+<h2><tt class="docutils literal"><span class="pre">collective.blueprint.dancing</span></tt><a class="headerlink" href="#collective-blueprint-dancing" title="Permalink to this headline">¶</a></h2>
+<p>Contains several blueprints for collective.transmogrifier pipelines,
+dedicated to the Plone product collective.dancing.</p>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="lessons_learned.html" title="Lessons learned"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="default_blueprints.html" title="Default blueprints"
+             >previous</a> |</li>
+        <li><a href="index.html">Migrations with Transmogrifier - 0.1</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2010, Rok Garbas.
+      Last updated on Sep 15, 2010.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.3.
+    </div>
+  </body>
+</html>
