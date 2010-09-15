@@ -12,4 +12,12 @@
 /plone-2.0.5/lib/
 /plone-2.0.5/parts/
 /plone-2.0.5/var/
-            
+/_build/
+/plone-4.0/bin/
+/plone-4.0/buildout.cfg
+/plone-4.0/eggs/
+/buildoutplone-4.0/include/
+/plone-4.0/lib/
+/plone-4.0/parts/
+/plone-4.0/include/
+/sphinx-to-github/
